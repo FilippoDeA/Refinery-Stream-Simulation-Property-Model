@@ -1,4 +1,4 @@
-readme_content = """# 🛢️ Quantitative Refinery Blending & Commercial Arbitrage
+"""# 🛢️ Quantitative Refinery Blending & Commercial Arbitrage
 
 **Bridging Process Engineering, Linear Programming, and Physical Commodities Trading**
 
