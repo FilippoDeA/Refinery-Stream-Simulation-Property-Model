@@ -61,7 +61,7 @@ inventories = [inv_naphtha, inv_reformate, inv_alkylate, inv_butane]
 # ==========================================
 components = ["Naphtha", "Reformate", "Alkylate", "Butane"]
 # Read the CSV file
-lims_db = pd.read_csv(r"C:\Users\filip\OneDrive\Desktop\Refinery_Optimizer_Project\refinery_lims_data.csv")
+lims_db = pd.read_csv(r"C:\Users\...\Quantitative-Refinery-Blending-Commercial-Arbitrage\refinery_lims_data.csv")
 
 # Extract as lists directly from the dataframe
 assay_ron = lims_db['RON'].tolist()
