@@ -42,3 +42,23 @@ Traders and operations managers do not run Jupyter Notebooks—they use interact
 
 4. A local server will start, and your default web browser will automatically open to http://localhost:8501.
 5. Interact: Adjust the "Current Tank Inventories" sliders on the left sidebar to simulate a supply chain bottleneck (e.g., artificially crash your Reformate supply), hit the Execute button, and watch the algorithm instantly pivot to capture the next best margin.
+
+---
+
+## 🛠️ 3. Installation & Setup (For Both Files)
+To run this repository locally, you will need Python 3.8+ and the following specific libraries.
+
+Clone the repository and install the dependencies via pip:
+```bash
+   git clone <your-repository-url>
+   cd <repository-folder>
+   pip install scipy pandas numpy yfinance pythonnet streamlit
+```
+
+---
+
+## 📝 4. Included Data Files
+
+- `refinery_lims_data.csv`: A mock Laboratory Information Management System dataset containing empirical stream assays (RON, RVP).
+
+- `Blending_Model.dwxmz`: The baseline DWSIM chemical flowsheet used by the Notebook bridge.
