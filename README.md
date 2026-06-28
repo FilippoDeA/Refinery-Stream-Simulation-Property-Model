@@ -35,3 +35,10 @@ Traders and operations managers do not run Jupyter Notebooks—they use interact
 1. Open your terminal or command prompt.
 2. Navigate (`cd`) to the directory where `app.py` is saved.
 3. Execute the following command:
+
+```bash
+   streamlit run app.py
+```
+
+4. A local server will start, and your default web browser will automatically open to http://localhost:8501.
+5. Interact: Adjust the "Current Tank Inventories" sliders on the left sidebar to simulate a supply chain bottleneck (e.g., artificially crash your Reformate supply), hit the Execute button, and watch the algorithm instantly pivot to capture the next best margin.
