@@ -50,7 +50,7 @@ To run this repository locally, you will need Python 3.8+ and the following spec
 
 Clone the repository and install the dependencies via pip:
 ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/FilippoDeA/Refinery-Stream-Simulation-Property-Model
    cd <repository-folder>
    pip install scipy pandas numpy yfinance pythonnet streamlit
 ```
